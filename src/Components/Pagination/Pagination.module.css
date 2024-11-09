@@ -1,0 +1,34 @@
+.pagination{
+    display: flex;
+    gap: 3rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 2vh auto;
+}
+
+.pageNumber{
+    cursor: pointer;
+}
+
+.imageComponent {
+   border: 1px solid #171717;
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+}
+
+.image {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.imageGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+    gap: 1rem; /* Adjust gap between items */
+    justify-items: center; /* Center items horizontally */
+    margin: 2rem auto; /* Center the grid */
+    width: 80%; /* Adjust the width as needed */
+}
